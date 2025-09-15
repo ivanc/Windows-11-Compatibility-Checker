@@ -132,3 +132,4 @@ $jsonOutput = @{
 
 # Output JSON compressed (no extra spaces)
 $jsonOutput | ConvertTo-Json -Compress
+Read-Host -Prompt "Press any key to exit"
